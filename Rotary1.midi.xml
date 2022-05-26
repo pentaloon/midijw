@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="">
+    <info/>
+    <controller id="Arduino">
+        <scriptfiles>
+            <file filename="arduino-scripts.js" functionprefix="Arduino"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>Arduino.wheelTurn</key>
+                <description>custom scratch function</description>
+                <status>0xB8</status>
+                <midino>0x10</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
